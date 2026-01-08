@@ -11,6 +11,19 @@ body {
   padding-right: 100px;
 }
 
+.header-links{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 10px;
+  gap:10px;
+  
+}
+a{
+  color:white;
+  text-decoration: none;
+ 
+}
 li {
   padding-left: 15px;
 }
@@ -43,11 +56,7 @@ li {
   align-self: flex-start;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  font-size: 12px;
-}
+
 .second-row {
   display: flex;
   flex-direction: column;
@@ -67,8 +76,8 @@ ul {
   
 }
 .box {
-    width: 200px;
-  height: 200px;
+    width: 150px;
+  height: 150px;
   justify-self: center;
   border: solid #3882f6;
   
