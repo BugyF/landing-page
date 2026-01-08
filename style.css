@@ -1,47 +1,78 @@
-
-.header,.first-row{
-    font-family: 'Roboto';font-size: 22px;
-    background-color:#1f2937;
-    color:white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.header,
+.first-row {
+  font-family: "Roboto";
+  font-size: 22px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.first-row-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-button-top {
+  background-color: #3882f6;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 10%;
+  align-self: flex-start;
+}
+
 /* this is for setting the margin left */
-.l-margin{   
-    margin-left:100px;
-    gap:10px;
+.l-margin {
+  margin-left: 100px;
+  gap: 10px;
 }
 /* this is for setting the margin right */
-.r-margin{
-    margin-right: 100px;
-    gap:10px;
+.r-margin {
+  margin-right: 100px;
+  gap: 10px;
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    font-size: 12px;
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 12px;
 }
-button{
-    
+.third-row {
 }
-.first-row-left{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+
+.fourth-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  flex: auto;
+  margin: 50px 100px;
+  background-color: #3882f6;
+  border-radius: 2%;
+  color: white;
 }
-.sign-up-button-top{
-    background-color: #3882F6;
-    padding:5px 15px;
-    color: white;
-    border-radius: 10%;
+.call-to-action {
+  font-size: 36px;
+  font-weight: 900;
 }
-.sign-up-button-bottom{
-    background-color: #3882F6;
-    padding:5px 15px;
-    color: white;
-    border-radius: 10%;
-    border-color: white;
+.sign-up-button-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  height: 30px;
+  padding:0 20px;
+  color: white;
+  border-radius: 10%;
+  border-width: 1px;
+  border-color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px;
+  color: white;
 }
