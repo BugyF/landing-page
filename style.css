@@ -6,9 +6,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
-.header-logo,.header-links,.main-title{
+/* this is for setting the margin left */
+.l-margin{   
     margin-left:100px;
+    gap:10px;
+}
+/* this is for setting the margin right */
+.r-margin{
     margin-right: 100px;
     gap:10px;
 }
@@ -17,9 +23,25 @@ ul{
     display: flex;
     font-size: 12px;
 }
+button{
+    
+}
 .first-row-left{
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: center;
     flex-direction: column;
+}
+.sign-up-button-top{
+    background-color: #3882F6;
+    padding:5px 15px;
+    color: white;
+    border-radius: 10%;
+}
+.sign-up-button-bottom{
+    background-color: #3882F6;
+    padding:5px 15px;
+    color: white;
+    border-radius: 10%;
+    border-color: white;
 }
