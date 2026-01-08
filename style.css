@@ -1,8 +1,7 @@
-body{
-    font-family: "Roboto";
+body {
+  font-family: "Roboto";
 }
 .header {
-  
   font-size: 22px;
   background-color: #1f2937;
   color: white;
@@ -12,16 +11,14 @@ body{
   padding-right: 100px;
 }
 
-li{
-    padding-left: 15px;
+li {
+  padding-left: 15px;
 }
-.main-title{
-    font-size:48px;
-    align-self: flex-start;
-    
+.main-title {
+  font-size: 48px;
+  align-self: flex-start;
 }
 .first-row {
-  
   font-size: 22px;
   background-color: #1f2937;
   color: white;
@@ -36,7 +33,6 @@ li{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .sign-up-button-top {
@@ -56,46 +52,55 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:100px;
+  padding: 100px;
+  padding-top: 25px;
 }
 .four-boxes {
   display: flex;
+  justify-content: space-between;
 }
 .box.type {
   display: flex;
-  justify-content: center;
-}
-.box {
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: flex;
-  border: 5px;
-  border-color: #3882f6;
-
   
 }
-.some-info{
-    font-size: 26px;
-    font-weight:900
+.box {
+    width: 200px;
+  height: 200px;
+  justify-self: center;
+  border: solid #3882f6;
+  
+  border-radius: 20px;
+}
+p {
+    text-align: center;
+  
+}
+
+.some-info {
+  font-size: 26px;
+  font-weight: 900;
 }
 
 .third-row {
   padding: 100px;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
-.thor-quote{
-    font-size: 36px;
-    font-weight: 300;
-    color:#1F2937;
-    
-    font-style: italic;
+.thor-quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+
+  font-style: italic;
 }
-.quoter-name{
-    font-weight: 900;
-    font:bold;
-    display: flex;
-    
-    justify-content: flex-end;
+.quoter-name {
+  font-weight: 900;
+  font: bold;
+  display: flex;
+
+  justify-content: flex-end;
 }
 
 .fourth-row {
