@@ -1,4 +1,14 @@
-.header,
+.header {
+  font-family: "Roboto";
+  font-size: 22px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .first-row {
   font-family: "Roboto";
   font-size: 22px;
@@ -7,6 +17,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .first-row-left {
   display: flex;
@@ -14,6 +26,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .sign-up-button-top {
   background-color: #3882f6;
   padding: 5px 15px;
@@ -22,22 +35,20 @@
   align-self: flex-start;
 }
 
-/* this is for setting the margin left */
-.l-margin {
-  margin-left: 100px;
-  gap: 10px;
-}
-/* this is for setting the margin right */
-.r-margin {
-  margin-right: 100px;
-  gap: 10px;
-}
+
 ul {
   list-style-type: none;
   display: flex;
   font-size: 12px;
 }
+.second-row {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .third-row {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .fourth-row {
@@ -61,7 +72,7 @@ ul {
   align-items: center;
   background-color: #3882f6;
   height: 30px;
-  padding:0 20px;
+  padding: 0 20px;
   color: white;
   border-radius: 10%;
   border-width: 1px;
