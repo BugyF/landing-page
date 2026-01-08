@@ -1,5 +1,8 @@
+body{
+    font-family: "Roboto";
+}
 .header {
-  font-family: "Roboto";
+  
   font-size: 22px;
   background-color: #1f2937;
   color: white;
@@ -9,8 +12,16 @@
   padding-right: 100px;
 }
 
+li{
+    padding-left: 15px;
+}
+.main-title{
+    font-size:48px;
+    align-self: flex-start;
+    
+}
 .first-row {
-  font-family: "Roboto";
+  
   font-size: 22px;
   background-color: #1f2937;
   color: white;
@@ -25,6 +36,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .sign-up-button-top {
@@ -35,20 +47,37 @@
   align-self: flex-start;
 }
 
-
 ul {
   list-style-type: none;
   display: flex;
   font-size: 12px;
 }
 .second-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 100px;
   padding-right: 100px;
 }
+.four-boxes {
+  display: flex;
+}
+.box.type {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 5px;
+  border-color: #3882f6;
+
+  padding: 50px;
+}
 
 .third-row {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px;
 }
 
 .fourth-row {
